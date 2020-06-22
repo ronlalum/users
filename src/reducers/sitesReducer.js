@@ -3,7 +3,7 @@ const initState = {
   siteName: "React Redux"
 
 }
-
+ 
 const sitesReducer = (state = initState, action) => {
 
   switch (action.type) {

@@ -4,7 +4,7 @@ import LoginForm from '../components/LoginForm';
 
 import { login } from '../actions/usersActions';
 
-class Login extends Component {
+class Login extends Component { 
 
     UNSAFE_componentWillMount() {
 

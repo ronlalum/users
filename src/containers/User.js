@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { getUserAction } from '../actions/usersActions';
 
 class User extends Component {
-
+ 
     componentWillMount(){
         this.props.getUser(this.userId);
     }

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class LoginForm extends Component {
 
     constructor() {
-        super();
+        super(); 
         this.state = {
             user: {
                 email: '',

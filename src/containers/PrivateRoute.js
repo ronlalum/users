@@ -4,7 +4,7 @@ import { Route, Redirect } from 'react-router-dom';
 
 
 const PrivatRoute = ({ path, component: Component, isLogged, ...rest }) => {
-    return(
+    return( 
         <Route path={path} {...rest} render={props => {
             if (isLogged === true) {
                 return( <Component {...props}{...rest} />)

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import { getUsersAction } from '../actions/usersActions';
-
+ 
 class Users extends Component {
 
     componentWillMount() {

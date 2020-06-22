@@ -1,5 +1,5 @@
 const isLoggedLocalStorage = window.localStorage.getItem('isLogged');
-
+ 
 const initState = {
     isLogged: (isLoggedLocalStorage !== null ? (isLoggedLocalStorage === 'true') : false),
     users: {

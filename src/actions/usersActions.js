@@ -2,7 +2,7 @@ export const login = (email, password) => {
 
     return async (dispatch) => {
         const body = {
-            email,
+            email, 
             password
         }
 

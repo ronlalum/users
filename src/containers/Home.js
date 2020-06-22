@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 class Home extends Component {
     render() {
-        return (
+        return ( 
             <div className="home-page">Home</div>
         )
     }
